@@ -127,7 +127,7 @@
             nav: true,
             navText: ['<i class="flaticon-right-arrow-angle"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
             dots: false,
-            items: 4,
+            items: 5,
             responsiveClass:true,
             responsive:{
                 0:{
@@ -140,7 +140,7 @@
                     items: 3
                 },
                 1200:{
-                    items: 4
+                    items: 5
                 }
             }
         });

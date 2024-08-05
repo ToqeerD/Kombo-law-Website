@@ -47,7 +47,7 @@
 
 /*------------------- 05. Home One -------------------*/
 /*-- Topbar 01 --*/
-h1,h2,h3,h4,h5,a,span{
+h1{
     font-family: "Poppins", sans-serif;
 }
 .topbar01{
@@ -2060,14 +2060,12 @@ header.fixedHeader.header02{
     position: relative;
 
     .owl-nav{
-        position: absolute;
-        right: 0;
-        top: -137px;
+       
 
         button{
             width: 60px;
             height: 60px;
-            border: 2px solid $heading-color;
+            // border: 2px solid $heading-color;
             border-radius: 3px;
             font-size: 40px;
             color: $heading-color;
@@ -2078,6 +2076,9 @@ header.fixedHeader.header02{
 
             &.owl-prev{
                 transform: rotate(180deg);
+                position: absolute;
+                left: -90px;
+                top: 40%;
 
                 i{
                     position: relative;
@@ -2086,9 +2087,15 @@ header.fixedHeader.header02{
             }
 
             &:hover{
-                color: #fff;
-                background: $primay-color;
-                border-color: $primay-color;
+                color: $primay-color
+            }
+            &.owl-next{
+                position: absolute;
+                top: 40%;
+                right: -90px;
+            }
+            i{
+                font-size: 16px;
             }
         }
     }
@@ -2098,14 +2105,10 @@ header.fixedHeader.header02{
         padding: 15px;
         width: calc(100% + 30px);
     }
-    .owl-item.active .serviceItem02{
-        box-shadow: 0px 9px 35px rgba(0, 0, 0, 0.1);
-    }
     
 }
 .serviceItem02{
     position: relative;
-    background: #fff;
     margin: 15px 0 30px;
     border-radius: 5px;
 
@@ -2114,18 +2117,23 @@ header.fixedHeader.header02{
         position: relative;
         width: 100%;
         border-radius: 5px;
-        padding: 43px 0 0;
 
-        &::after{
-            position: absolute;
-            left: -50px;
-            top: -47px;
-            width: 0;
-            height: 0;
-            content: '';
-            background: $primay-color;
-            border-radius: 50%;
-            @include transition;
+        // &::after{
+        //     position: absolute;
+        //     left: -50px;
+        //     top: -47px;
+        //     width: 0;
+        //     height: 0;
+        //     content: '';
+        //     background: $primay-color;
+        //     border-radius: 50%;
+        //     @include transition;
+        // }
+        img{
+           width: 100%;
+           aspect-ratio: 3/2;
+           object-fit: contain;
+           mix-blend-mode:color;
         }
     }
 
@@ -3178,6 +3186,15 @@ header.fixedHeader.header02{
         }
         .qutation{
             margin: 0;
+            font-size: 20px;
+        }
+        .google-link{
+            position: absolute;
+            right: 30px;
+            bottom: 20px;
+            img{
+                width: 40px;
+            }
         }
     }
     .owl-dots{
@@ -3194,7 +3211,7 @@ header.fixedHeader.header02{
             @include transition;
 
             &:hover, &.active{
-                background: $primay-color;
+                background: $subheading-color;
             }
         }
     }
