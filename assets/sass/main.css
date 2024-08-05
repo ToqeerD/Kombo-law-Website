@@ -360,6 +360,7 @@
 }
 .aboutContent02 > p {
   margin: 0 0 40px;
+  font-size: 22px;
 }
 .aboutContent02 .iconBox02 {
   margin: 0 15px 31px 0;
@@ -616,9 +617,6 @@
   .ctaWrapper h2 {
     margin-right: -40px;
   }
-  .aboutContent02 {
-    margin: 0;
-  }
   .aboutSection03 .aboutContent02,
   .aboutSection02 .aboutContent02,
   .aboutSection01 .aboutContent01 {
@@ -852,6 +850,7 @@
   --primay-color: #1A2B56;
   --body-color: #536184;
   --heading-color: #233152;
+  --subheading-color: #00AED4;
   --body-font: "Poppins";
   --heading-font: "Roboto";
 }
@@ -964,8 +963,8 @@ h6 {
 
 /*-- Section Title --*/
 .subTitle {
-  color: var(--primay-color);
-  font-weight: 500;
+  color: #00AED4;
+  font-weight: 700;
   font-size: 24px;
   line-height: 0.9;
   margin: 0 0 17px;

@@ -2,6 +2,7 @@
   --primay-color        : #1A2B56;
   --body-color          : #536184;
   --heading-color       : #233152;
+  --subheading-color   : #00AED4;
   --body-font           : 'Poppins';
   --heading-font        : 'Roboto';
 }
@@ -10,6 +11,7 @@
 $primay-color         : var(--primay-color);
 $body-color           : var(--body-color);
 $heading-color        : var(--heading-color);
+$subheading-color     : var(--subheading-color);
 
 // Typography
 $body-font       : var(--body-font);
