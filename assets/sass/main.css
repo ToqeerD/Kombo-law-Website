@@ -4355,9 +4355,71 @@ header.fixedHeader.header02 {
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
 
+.testimonilaItem02 {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 45px 52px 68px 30px;
+  margin: 0 0 30px;
+}
+.testimonilaItem02 i {
+  color: #F1B929;
+}
+.testimonilaItem02 .tsAuthor {
+  position: relative;
+  min-height: 80px;
+  padding: 10px 0 0 96px;
+  margin: 0 0 24px;
+}
+.testimonilaItem02 .tsAuthor img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.testimonilaItem02 .tsAuthor .tsNM {
+  font-size: 22px;
+  line-height: 32px;
+  text-transform: capitalize;
+  margin: 0 0 0px;
+}
+.testimonilaItem02 .tsAuthor .tsDesign {
+  display: block;
+  font-weight: 500;
+}
+.testimonilaItem02 .quoteIcon {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  right: 46px;
+  top: 45px;
+}
+.testimonilaItem02 .quoteIcon img {
+  width: 100%;
+  height: 100%;
+}
+.testimonilaItem02 .qutation {
+  margin: 0;
+  font-size: 20px;
+}
+.testimonilaItem02 .google-link {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+.testimonilaItem02 .google-link img {
+  width: 40px;
+}
+
 /*-- Testimonial --*/
 .testimonialSlider02 {
   position: relative;
+}
+.testimonialSlider02 i {
+  color: #F1B929;
 }
 .testimonialSlider02 .testimonilaItem02 {
   position: relative;
@@ -7037,6 +7099,26 @@ header.fixedHeader.header04 {
   width: 180px;
 }
 
+.testimonials {
+  padding: 80px 0;
+  background-color: #F4F4F4;
+}
+.testimonials .testi-head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.testimonials .testi-head span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00AED4;
+}
+.testimonials .testi-head h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1A2B56;
+  line-height: 50px;
+}
+
 /*------------------- 18. Responsive -------------------*/
 /*------------------- 1. Responsive For Extra large Device -------------------*/
 @media (min-width: 1200px) and (max-width: 1600px) {
@@ -8081,6 +8163,14 @@ header.fixedHeader.header04 {
     padding-left: 0;
     padding-right: 0;
   }
+  .testimonials .testi-head h1 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .testimonilaItem02 .quoteIcon {
+    right: 10px;
+    top: 24px;
+  }
 }
 /*------------------- 5. Responsive For Mobile Device -------------------*/
 @media (max-width: 767px) {
@@ -8497,6 +8587,14 @@ header.fixedHeader.header04 {
     padding: 0 17px;
     margin-bottom: 10px;
   }
+  .testimonials .testi-head h1 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .testimonilaItem02 .quoteIcon {
+    right: 10px;
+    top: 24px;
+  }
 }
 @media (max-width: 575px) {
   .countryTabTabsNav li button:hover::after, .countryTabTabsNav li button.active::after {
@@ -8716,5 +8814,13 @@ header.fixedHeader.header04 {
   .abVideo .videoBtn .popup_video {
     font-size: 50px;
     margin: -240px 0 0 190px;
+  }
+  .testimonials .testi-head h1 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .testimonilaItem02 .quoteIcon {
+    right: 10px;
+    top: 24px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1049,6 +1049,14 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .testimonials .testi-head h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .testimonilaItem02 .quoteIcon {
+        right: 10px;
+        top: 24px;
+    }
 }
 /*------------------- 5. Responsive For Mobile Device -------------------*/
 @media (max-width: 767px){
@@ -1494,6 +1502,14 @@
         padding: 0 17px;
         margin-bottom: 10px;
     }
+    .testimonials .testi-head h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .testimonilaItem02 .quoteIcon {
+        right: 10px;
+        top: 24px;
+    }
 }
 @media (max-width: 575px){
     .countryTabTabsNav li button:hover::after, .countryTabTabsNav li button.active::after{
@@ -1721,5 +1737,13 @@
             font-size: 50px;
             margin: -240px 0 0 190px;
         }
+    }
+    .testimonials .testi-head h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .testimonilaItem02 .quoteIcon {
+        right: 10px;
+        top: 24px;
     }
 }

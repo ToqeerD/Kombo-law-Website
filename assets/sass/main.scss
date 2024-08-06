@@ -3244,11 +3244,72 @@ header.fixedHeader.header02{
         }
     }
 }
+.testimonilaItem02{
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 45px 52px 68px 30px;
+    margin: 0 0 30px;
+    i{
+        color: #F1B929;
+    }
+    .tsAuthor{
+        position: relative;
+        min-height: 80px;
+        padding: 10px 0 0 96px;
+        margin: 0 0 24px;
 
+        img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .tsNM{
+            font-size: 22px;
+            line-height: 32px;
+            text-transform: capitalize;
+            margin: 0 0 0px;
+        }
+        .tsDesign{
+            display: block;
+            font-weight: 500;
+        }
+    }
+    .quoteIcon{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        right: 46px;
+        top: 45px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .qutation{
+        margin: 0;
+        font-size: 20px;
+    }
+    .google-link{
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        img{
+            width: 40px;
+        }
+    }
+}
 /*-- Testimonial --*/
 .testimonialSlider02{
     position: relative;
-
+    i{
+        color: #F1B929;
+    }
     .testimonilaItem02{
         position: relative;
         background: #FFFFFF;
@@ -6085,6 +6146,25 @@ header.fixedHeader.header04{
                     width: 180px;
                 }
             }
+        }
+    }
+}
+.testimonials{
+    padding: 80px 0;
+    background-color: #F4F4F4;
+    .testi-head{
+        text-align: center;
+        margin-bottom: 30px;
+        span{
+            font-size: 24px;
+            font-weight: 700;
+            color: #00AED4;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: 700;
+            color: #1A2B56;
+            line-height: 50px;
         }
     }
 }
