@@ -739,6 +739,12 @@
   .funfactSection01 .brRight:nth-child(2) {
     border-right: none;
   }
+  .reach-out {
+    height: auto;
+  }
+  .aboutContent02 > p {
+    font-size: 16px;
+  }
 }
 @media (max-width: 767px) {
   .CTASection02 {
@@ -774,7 +780,7 @@
   .teamSection01, .serviceSection04, .coachingSction04,
   .faqSection02, .blogSction03, .ServicePageSection,
   .serviceSection01 {
-    padding: 80px 0 60px;
+    padding: 10px 0 60px;
   }
   .coachingPageSction .secTitle,
   .coachingSction02 .secTitle,
@@ -785,7 +791,7 @@
   .abPageAbout, .abPageCountry, .abPageTestimonial,
   .countrySection02, .aboutSection02, .faqSection01,
   .serviceSection02, .coachingSction02 {
-    padding: 80px 0;
+    padding: 20px 0;
   }
   .whyChose01 {
     padding-top: 60px;
@@ -854,6 +860,12 @@
   }
   .ctaWrapper .iconBox02 .ibTitle {
     font-size: 20px;
+  }
+  .reach-out {
+    padding: 70px 0;
+  }
+  .reach-out .reach-heading h2 {
+    font-size: 32px !important;
   }
 }
 /*------------------- 02. Mixin -------------------*/
@@ -2250,6 +2262,14 @@ header.fixedHeader {
 .home-contact input::placeholder, .home-contact textarea::placeholder {
   color: #fff !important;
 }
+.home-contact .nice-select::after {
+  border-bottom: 1.5px solid #fff;
+  border-right: 1.5px solid #fff;
+  height: 8px;
+  right: 16px;
+  width: 8px;
+  margin-top: -5px;
+}
 
 .contactForm {
   position: relative;
@@ -2304,8 +2324,8 @@ header.fixedHeader {
   color: var(--body-color);
 }
 .contactForm .nice-select::after {
-  border-bottom: 1.5px solid #fff;
-  border-right: 1.5px solid #fff;
+  border-bottom: 1.5px solid #536184;
+  border-right: 1.5px solid #536184;
   height: 8px;
   right: 16px;
   width: 8px;
@@ -2695,7 +2715,7 @@ header.fixedHeader {
   z-index: 0;
 }
 .footer_01 .copy-right {
-  padding: 15px 0;
+  padding: 20px 0;
   margin-top: 20px;
   border-top: 1px solid #26375F;
 }

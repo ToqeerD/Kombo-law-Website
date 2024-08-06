@@ -1012,6 +1012,17 @@ header.fixedHeader {
     input::placeholder, textarea::placeholder{
         color: #fff !important;
     }
+    .nice-select{
+        &::after{
+            border-bottom: 1.5px solid #fff;
+            border-right: 1.5px solid #fff;
+            height: 8px;
+            right: 16px;
+            width: 8px;
+            margin-top: -5px;
+        }
+    }
+    
 }
 .contactForm{
     position: relative;
@@ -1068,8 +1079,8 @@ header.fixedHeader {
             color: $body-color;
         }
         &::after{
-            border-bottom: 1.5px solid #fff;
-            border-right: 1.5px solid #fff;
+            border-bottom: 1.5px solid #536184;
+            border-right: 1.5px solid #536184;
             height: 8px;
             right: 16px;
             width: 8px;
@@ -1471,7 +1482,7 @@ header.fixedHeader {
         z-index: 0;
     }
     .copy-right{
-        padding: 15px 0;
+        padding: 20px 0;
         margin-top: 20px;
         border-top: 1px solid #26375F;
         p{
