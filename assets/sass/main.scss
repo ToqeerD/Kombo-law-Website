@@ -219,7 +219,8 @@ h1{
     
     img{
         height: 52px;
-        width: auto;
+        width: 170px;
+        object-fit: contain;
     }
 }
 .mainMenu{
@@ -1604,7 +1605,7 @@ header.fixedHeader {
         width: 71px;
         height: 2px;
         content: '';
-        background: $primay-color;
+        background:#00AED4;
     }
 }
 .widget{

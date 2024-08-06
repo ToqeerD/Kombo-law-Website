@@ -738,10 +738,13 @@
     border-right: none;
   }
   .reach-out {
-    height: auto;
+    height: auto !important;
   }
   .aboutContent02 > p {
     font-size: 16px;
+  }
+  .contactForm .input-box {
+    margin: 0 10px !important;
   }
 }
 @media (max-width: 767px) {
@@ -860,10 +863,17 @@
     font-size: 20px;
   }
   .reach-out {
-    padding: 70px 0;
+    height: auto !important;
+    padding: 70px 0 !important;
   }
   .reach-out .reach-heading h2 {
     font-size: 32px !important;
+  }
+  .footer_01 .copy-right .row {
+    text-align: center;
+  }
+  .footer_01 .copy-right .policy {
+    text-align: center !important;
   }
 }
 /*------------------- 02. Mixin -------------------*/
@@ -1641,7 +1651,8 @@ h1 {
 }
 .logo01 img {
   height: 52px;
-  width: auto;
+  width: 170px;
+  object-fit: contain;
 }
 
 .mainMenu {
@@ -2994,7 +3005,7 @@ header.fixedHeader {
   width: 71px;
   height: 2px;
   content: "";
-  background: var(--primay-color);
+  background: #00AED4;
 }
 
 .widget {

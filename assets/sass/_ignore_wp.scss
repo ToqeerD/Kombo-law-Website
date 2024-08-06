@@ -708,12 +708,14 @@
 		border-right: none;
 	}
 	.reach-out{
-        height: auto;
+        height: auto !important;
     }
     .aboutContent02 > p{
         font-size: 16px;
     }
-	
+	.contactForm .input-box{
+		margin: 0 10px !important; 
+	}
 }
 @media (max-width: 767px){
 	.CTASection02{
@@ -831,13 +833,24 @@
 		}
 	}
 	.reach-out {
-		padding: 70px 0;
+		height: auto !important;
+		padding: 70px 0 !important;
 		.reach-heading{
 			h2 {
 				font-size: 32px !important;
 			}
 		}
 	} 
+	.footer_01{
+		.copy-right{
+			.row{
+				text-align: center;
+			}
+			.policy {
+				text-align: center !important;
+			}
+		}
+	}
 }
 
 
