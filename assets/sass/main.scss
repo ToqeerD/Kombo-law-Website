@@ -98,7 +98,7 @@ h1{
     position: relative;
     color: #fff;
     border-right: 1px solid $body-color;
-    padding: 14.5px 72px 13px 0;
+    padding: 14.5px 72px 13px 10px;
 
     i{
         display: inline-block;
@@ -180,8 +180,6 @@ h1{
 .topBarSocial{
     position: relative;
     padding: 16px 26px 12px 40px;
-    border-right: 1px solid $body-color;
-
     a{
         display: inline-block;
         font-size: 18px;
@@ -189,7 +187,7 @@ h1{
         margin-right: 23px;
 
         &:hover{
-            color: $primay-color;
+            color:#B89B5E;
         }
     }
 }
@@ -1005,6 +1003,16 @@ header.fixedHeader {
     top: 12px;
     animation: animationFrames 20s infinite linear;
 }
+.home-contact{
+    input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+    textarea, & .nice-select{
+        color:#fff !important;
+        border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    }
+    input::placeholder, textarea::placeholder{
+        color: #fff !important;
+    }
+}
 .contactForm{
     position: relative;
 
@@ -1060,8 +1068,8 @@ header.fixedHeader {
             color: $body-color;
         }
         &::after{
-            border-bottom: 1.5px solid $body-color;
-            border-right: 1.5px solid $body-color;
+            border-bottom: 1.5px solid #fff;
+            border-right: 1.5px solid #fff;
             height: 8px;
             right: 16px;
             width: 8px;
@@ -1440,12 +1448,55 @@ header.fixedHeader {
 
 /*-- Footer --*/
 .footer_01{
+    padding: 80px 0 0;
     position: relative;
-    background-color: $heading-color;
+    background-color: #1A2B56;
 	background-position: right center;
 	background-size: auto;
 	background-repeat: no-repeat;
     overflow: hidden;
+    .bdr::before{
+        content: "";
+        display: block;
+        width: 1px;
+        background-color:#26375F;
+        height: 300px;
+        position: absolute;
+        right: 0;
+    }
+    .footer-style-img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+    }
+    .copy-right{
+        padding: 15px 0;
+        margin-top: 20px;
+        border-top: 1px solid #26375F;
+        p{
+            margin: 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .row{
+            align-items: center;
+        }
+        .policy{
+            ul{
+                li{
+                    display: inline-block;
+                    margin: 0 10px;
+                    a{
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
 }
 .straceThumb {
     position: relative;
@@ -1459,7 +1510,7 @@ header.fixedHeader {
 .aboutWidget{
     position: relative;
     margin: 81px -36px 0 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    // border-right: 1px solid rgba(255, 255, 255, 0.3);
     padding-right: 32px;
     padding-bottom: 1px;
     
@@ -1475,6 +1526,8 @@ header.fixedHeader {
     p{
         color: #fff;
         margin-bottom: 37px;
+        font-size: 15px;
+        font-weight: 400;
     }
     .iconBox02{
         padding: 0 0 0 64px;
@@ -1520,14 +1573,15 @@ header.fixedHeader {
 .serviceMenu{
     position: relative;
     margin: 79px -14px 0 85px;
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    // border-right: 1px solid rgba(255, 255, 255, 0.3);
     padding-bottom: 12px;
 }
 .widgetTitle{
     position: relative;
     display: block;
     color: #fff;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 900;
     line-height: 26px;
     padding-bottom: 11px;
     margin: 0 0 38px;
@@ -1563,6 +1617,8 @@ header.fixedHeader {
                 color: inherit;
                 padding-left: 16px;
                 position: relative;
+                font-size: 16px;
+                font-weight: 400;
 
                 &::after{
                     position: absolute;
@@ -1577,7 +1633,7 @@ header.fixedHeader {
                     background: #fff;
                 }
                 &:hover{
-                    color: $primay-color;
+                    color: #B89B5E;
                     padding-left: 20px;
                 }
             }
@@ -1587,7 +1643,7 @@ header.fixedHeader {
 .contactWidget{
     position: relative;
     margin: 79px 0 0 25px;
-
+    z-index: 1;
     p{
         font-size: 16px;
         line-height: 28px;
@@ -1598,6 +1654,36 @@ header.fixedHeader {
             font-size: 17px;
             font-weight: 600;
             display: inline-block;
+        }
+    }
+    .contact-data{
+        .contact-info{
+            display: flex;
+            .icon{
+                margin-right: 15px;
+                i{
+                    color: #B89B5E;
+                    font-size: 25px;
+                }
+            }
+            .data{
+                strong{
+                    color: #fff;
+                    display: block;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+                a{
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+                span{
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
         }
     }
 }
@@ -1619,7 +1705,7 @@ header.fixedHeader {
         margin-right: 6px;
 
         &:hover{
-            background: $primay-color;
+            background: #B89B5E;
             border-color: $primay-color;
             color: #fff;
         }
@@ -3069,7 +3155,19 @@ header.fixedHeader.header02{
         margin: 0;
     }
 }
-
+.explore{
+    margin-top: 40px;
+    .explore-btn{
+        text-transform: none;
+        line-height: 60px;
+        padding:22px 32px;
+        border-radius:5px;
+        background-color: #1A2B56;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
 /*-- Accordian --*/
 .tmjAccordion{
     position: relative;
@@ -3079,7 +3177,7 @@ header.fixedHeader.header02{
         margin: 0 0 17px;
         border-radius: 0;
         @include transition;
-        border: 1px solid rgba(221, 221, 221, 0.35);
+        border: 2px solid var(--Borders, #F4F4F4);
         background: transparent;
 
         .card-header{
@@ -4029,7 +4127,7 @@ header.fixedHeader.header04{
         margin: 0 15px 20px 0;
 
         button{
-            border: 1px solid var(--body-color);
+            border: 2px solid var(--Borders, #F4F4F4);
             border-radius: 5px;
             outline: none;
             @include transition;
@@ -4042,11 +4140,11 @@ header.fixedHeader.header04{
             text-transform: capitalize;
             text-align: center;
             background: transparent;
-            padding: 0 20px;
+            padding: 0 30px;
 
             &:hover, &.active{
-                border-color: $primay-color;
-                background: $primay-color;
+                border-color: #00AED4;
+                background:#00AED4;
                 color: #fff;
             }
         }
@@ -5903,6 +6001,78 @@ header.fixedHeader.header04{
         }
     }
 }
-
+.reach-out{
+    width: 100%;
+    padding: 120px 0;
+    background: url(../images/home3/reach-bg.png);
+    background-position: center;
+    background-size: cover;
+    .reach-heading{
+        text-align: center;
+        span{
+            font-size: 24px;
+            font-weight: 700;
+            color: #B89B5E;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+    }
+    .tabs-box{
+        .nav-tabs{
+            border: none;
+        }
+        .nav{
+            justify-content: space-between;
+            button{
+                flex: 1 1 auto;
+                margin: 0 10px;
+                &:first-child{
+                    margin-left: 0;
+                }
+                &:last-child{
+                    margin-right: 0
+                }
+            }
+            .nav-link{
+                color: #fff;
+                border: none;
+                border-bottom: 1px solid #fff;
+            }
+            .nav-link.active{
+                color: #B89B5E;
+                background: none;
+                border-bottom: 1px solid #B89B5E;
+            }
+        }
+        .tab-content{
+            margin-top: 25px;
+            .input{
+                margin: 10px 0;
+                input{
+                    padding: 15px 12px;
+                }
+                select{
+                    padding: 15px 12px;
+                }
+            }
+            .next-step-btn{
+                margin-top: 20px;
+                button{
+                    background: #B89B5E;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border: none;
+                    outline: none;
+                    color: #fff;
+                    height: 55px;
+                    width: 180px;
+                }
+            }
+        }
+    }
+}
 /*------------------- 18. Responsive -------------------*/
 @import 'responsive';

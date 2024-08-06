@@ -455,11 +455,21 @@
 		margin-bottom: 58px;
 	}
 }
+.home-contact{
+	background: url(../images/home3/contact-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	.subTitle {
+		color: #fff;
+	}
 
+	.secTitle{
+		color: #fff;
+	}
+}
 .contactSection02{
 	position: relative;
 	padding: 120px 0;
-
 	.contactFWrapper{
 		padding: 29px 22px 0 0;
 		background: transparent;
