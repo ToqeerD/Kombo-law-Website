@@ -459,6 +459,7 @@
             padding: 16px 0 12px 20px;
             border-right: none;
             margin-left: auto;
+            display: flex;
 
             a{
                 margin-right: 15px;
@@ -1292,6 +1293,7 @@
                 padding: 10px 0;
                 text-align: center;
                 border-right: none;
+                justify-content: center;
             }
             .linkText{
                 display: none;

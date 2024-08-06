@@ -663,6 +663,9 @@
 	.contactSection02 .contactFWrapper{
 		padding-right: 0;
 	}
+	.serviceSlider.owl-carousel .owl-nav button.owl-next {
+		right: -60px !important;
+	}
 }
 @media (max-width: 991px){
 	.aboutContent02{
@@ -715,6 +718,15 @@
     }
 	.contactForm .input-box{
 		margin: 0 10px !important; 
+	}
+	.footer_01 .serviceMenu,.contactWidget{
+		margin-top: 12px !important;
+		.widgetTitle {
+			font-size: 18px;
+		}
+	}
+	.faqSection02 {
+		padding: 20px 0 108px;
 	}
 }
 @media (max-width: 767px){

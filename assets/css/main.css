@@ -695,6 +695,9 @@
   .contactSection02 .contactFWrapper {
     padding-right: 0;
   }
+  .serviceSlider.owl-carousel .owl-nav button.owl-next {
+    right: -60px !important;
+  }
 }
 @media (max-width: 991px) {
   .aboutContent02 {
@@ -745,6 +748,15 @@
   }
   .contactForm .input-box {
     margin: 0 10px !important;
+  }
+  .footer_01 .serviceMenu, .contactWidget {
+    margin-top: 12px !important;
+  }
+  .footer_01 .serviceMenu .widgetTitle, .contactWidget .widgetTitle {
+    font-size: 18px;
+  }
+  .faqSection02 {
+    padding: 20px 0 108px;
   }
 }
 @media (max-width: 767px) {
@@ -2455,7 +2467,7 @@ header.fixedHeader {
   border-color: #f00 !important;
 }
 .contactForm .input-box {
-  margin: 0 0 20px;
+  margin: 0 0 20px !important;
 }
 .contactForm .error {
   color: #f00;
@@ -3031,6 +3043,7 @@ header.fixedHeader {
   position: relative;
   font-size: 16px;
   font-weight: 400;
+  display: block;
 }
 .widget ul.menu li a::after {
   position: absolute;
@@ -3545,7 +3558,6 @@ header.fixedHeader.header02 {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-align: center;
-  margin: 0 0 0 28px;
 }
 .serviceSlider.owl-carousel .owl-nav button.owl-prev {
   transform: rotate(180deg);
@@ -4288,7 +4300,6 @@ header.fixedHeader.header02 {
 /*-- About Section --*/
 .abThumbWrapper {
   position: relative;
-  max-width: 595px;
 }
 
 .abThumb {
@@ -5565,6 +5576,7 @@ header.fixedHeader.header04 {
   -webkit-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
+  color: #B89B5E;
 }
 .iconBox05 .ibTitle {
   font-size: 16px;
@@ -7801,6 +7813,7 @@ header.fixedHeader.header04 {
     padding: 16px 0 12px 20px;
     border-right: none;
     margin-left: auto;
+    display: flex;
   }
   .topbar01 .topBarSocial a {
     margin-right: 15px;
@@ -8660,6 +8673,7 @@ header.fixedHeader.header04 {
     padding: 10px 0;
     text-align: center;
     border-right: none;
+    justify-content: center;
   }
   .topbar01 .topBarWrapper .linkText {
     display: none;
