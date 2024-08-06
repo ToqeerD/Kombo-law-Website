@@ -7087,6 +7087,8 @@ header.fixedHeader.header04 {
 }
 .reach-out .tabs-box .tab-content .next-step-btn {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 .reach-out .tabs-box .tab-content .next-step-btn button {
   background: #B89B5E;
@@ -7097,6 +7099,7 @@ header.fixedHeader.header04 {
   color: #fff;
   height: 55px;
   width: 180px;
+  margin: 0 15px;
 }
 
 .testimonials {

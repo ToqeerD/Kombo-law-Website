@@ -6135,6 +6135,8 @@ header.fixedHeader.header04{
             }
             .next-step-btn{
                 margin-top: 20px;
+                display: flex;
+                justify-content: center;
                 button{
                     background: #B89B5E;
                     font-size: 16px;
@@ -6144,6 +6146,7 @@ header.fixedHeader.header04{
                     color: #fff;
                     height: 55px;
                     width: 180px;
+                    margin: 0 15px;
                 }
             }
         }
