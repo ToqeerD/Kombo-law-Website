@@ -45,12 +45,19 @@
 
 .aboutSection01 {
   position: relative;
-  padding: 0 0 120px;
+  padding: 80px 0;
 }
 
 .aboutContent01 {
   position: relative;
   margin: 36px 0 0 0px;
+}
+.aboutContent01 ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+.aboutContent01 ul li {
+  margin: 10px 0;
 }
 .aboutContent01 .subTitle {
   font-weight: 600;
@@ -58,9 +65,6 @@
 }
 .aboutContent01 .secTitle {
   margin: 0 0 27px;
-}
-.aboutContent01 p {
-  margin: 0 50px 40px 0;
 }
 .aboutContent01 .cusrow {
   margin-right: -62px;
@@ -540,7 +544,9 @@
 
 .abPageAbout {
   position: relative;
-  padding: 120px 0;
+}
+.abPageAbout .row {
+  align-items: center;
 }
 
 .abPageCountry {

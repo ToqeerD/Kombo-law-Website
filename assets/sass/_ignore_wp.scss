@@ -7,12 +7,18 @@
 }
 .aboutSection01{
 	position: relative;
-	padding: 0 0 120px;
+	padding: 80px 0;
 }
 .aboutContent01{
 	position: relative;
 	margin: 36px 0 0 0px;
-
+	ul{
+		list-style-type: disc;
+		padding-left: 30px;
+		li{
+			margin: 10px 0;
+		}
+	}
 	.subTitle{
 		font-weight: 600;
 		margin-bottom: 31px;
@@ -21,11 +27,6 @@
 	.secTitle{
 		margin: 0 0 27px;
 	}
-
-	p{
-		margin: 0 50px 40px 0;
-	}
-
 	.cusrow{
 		margin-right: -62px;
 		margin-bottom: 40px;
@@ -504,7 +505,9 @@
 }
 .abPageAbout{
 	position: relative;
-	padding: 120px 0;
+	.row{
+		align-items: center;
+	}
 }
 .abPageCountry{
 	padding: 118px 0 113px;
