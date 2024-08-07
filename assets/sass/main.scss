@@ -271,7 +271,7 @@ h1{
                     }
 
                     a{
-                        font-size: 16px;
+                        font-size: 13px;
                     }
                     .sub-menu{
                         left: 100%;
@@ -3247,6 +3247,7 @@ header.fixedHeader.header02{
     border-radius: 5px;
     padding: 45px 52px 68px 30px;
     margin: 0 0 30px;
+    height: 90%;
     i{
         color: #F1B929;
     }
@@ -3298,6 +3299,15 @@ header.fixedHeader.header02{
         bottom: 20px;
         img{
             width: 40px;
+        }
+    }
+}
+.privacy-data{
+    ul{
+        padding-left: 40px;
+        list-style: circle;
+        li{
+            margin: 12px 0;
         }
     }
 }
@@ -4580,11 +4590,10 @@ header.fixedHeader.header04{
         }
     }
 }
-
 /*------------------- 10. Service Details -------------------*/
 .singleServiceSection{
     position: relative;
-    padding: 120px 0 105px;
+    padding: 85px 0 85px;
 }
 .serviceDConArea{
     position: relative;

@@ -917,7 +917,7 @@ body {
 
 body {
   font-family: var(--body-font);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--body-color);
   line-height: 26px;
@@ -1721,7 +1721,7 @@ h1 {
   display: none;
 }
 .mainMenu ul li .sub-menu li a {
-  font-size: 16px;
+  font-size: 13px;
 }
 .mainMenu ul li .sub-menu li .sub-menu {
   left: 100%;
@@ -4581,6 +4581,7 @@ header.fixedHeader.header02 {
   border-radius: 5px;
   padding: 45px 52px 68px 30px;
   margin: 0 0 30px;
+  height: 90%;
 }
 .testimonilaItem02 i {
   color: #F1B929;
@@ -4632,6 +4633,14 @@ header.fixedHeader.header02 {
 }
 .testimonilaItem02 .google-link img {
   width: 40px;
+}
+
+.privacy-data ul {
+  padding-left: 40px;
+  list-style: circle;
+}
+.privacy-data ul li {
+  margin: 12px 0;
 }
 
 /*-- Testimonial --*/
@@ -5932,7 +5941,7 @@ header.fixedHeader.header04 {
 /*------------------- 10. Service Details -------------------*/
 .singleServiceSection {
   position: relative;
-  padding: 120px 0 105px;
+  padding: 85px 0 85px;
 }
 
 .serviceDConArea {
