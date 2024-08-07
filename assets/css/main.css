@@ -1848,6 +1848,10 @@ h1 {
   border-bottom: none;
 }
 
+.form-control, .form-select {
+  border-radius: 0 !important;
+}
+
 .menuBtn {
   display: none;
 }

@@ -404,7 +404,9 @@ h1{
         }
     }
 }
-
+.form-control,.form-select{
+    border-radius: 0 !important;
+}
 .menuBtn{
     display: none;
 }
