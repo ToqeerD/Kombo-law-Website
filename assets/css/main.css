@@ -50,7 +50,7 @@
 
 .aboutContent01 {
   position: relative;
-  margin: 36px 0 0 0px;
+  margin: 36px 0 0 20px;
 }
 .aboutContent01 ul {
   list-style-type: disc;
@@ -355,7 +355,7 @@
 
 .aboutContent02 {
   position: relative;
-  margin: 30px 0 0 -5px;
+  margin: 30px 0 0 30px;
 }
 .aboutContent02 .secTitle {
   margin: 0 0 20px;
@@ -4647,7 +4647,7 @@ header.fixedHeader.header02 {
 
 .privacy-data ul {
   padding-left: 40px;
-  list-style: circle;
+  list-style: disc;
 }
 .privacy-data ul li {
   margin: 12px 0;
