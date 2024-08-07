@@ -98,7 +98,7 @@ h1{
     position: relative;
     color: #fff;
     border-right: 1px solid $body-color;
-    padding: 14.5px 72px 13px 10px;
+    padding: 14.5px 72px 13px 0;
 
     i{
         display: inline-block;
@@ -204,7 +204,6 @@ h1{
         height: 60px;
         line-height: 60px;
         padding: 0 32px;
-        border-radius: 5px; 
     }
 }
 .header01Inner{
@@ -1674,9 +1673,11 @@ header.fixedHeader {
             display: flex;
             .icon{
                 margin-right: 15px;
-                i{
-                    color: #B89B5E;
-                    font-size: 25px;
+                img{
+                    display: block;
+                    width: 28px;
+                    height: 24px;
+                    object-fit: contain;
                 }
             }
             .data{
@@ -1713,7 +1714,6 @@ header.fixedHeader {
         border: 1px solid #fff;
         color: #fff;
         font-size: 20px;
-        border-radius: 5px;
         text-align: center;
         margin-right: 6px;
 
@@ -2229,8 +2229,7 @@ header.fixedHeader.header02{
         //     @include transition;
         // }
         img{
-           width: 100%;
-           aspect-ratio: 3/2;
+           aspect-ratio: 3/1;
            object-fit: contain;
            mix-blend-mode:color;
         }
@@ -2984,7 +2983,6 @@ header.fixedHeader.header02{
     img{
         width: 100%;
         height: auto;
-        border-radius: 4px;
     }
     .mdLogo{
         width: 160px;
@@ -3173,7 +3171,6 @@ header.fixedHeader.header02{
         text-transform: none;
         line-height: 60px;
         padding:22px 32px;
-        border-radius:5px;
         background-color: #1A2B56;
         color: #fff;
         font-size: 16px;
@@ -4201,7 +4198,6 @@ header.fixedHeader.header04{
 
         button{
             border: 2px solid var(--Borders, #F4F4F4);
-            border-radius: 5px;
             outline: none;
             @include transition;
             height: 56px;
@@ -4283,10 +4279,14 @@ header.fixedHeader.header04{
         justify-content: center;
         font-size: 45px;
 
-        i{
+        img{
             display: block;
             @include transition(0.6s);
             color: #B89B5E;
+            display: block;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
         }
     }
     .ibTitle{

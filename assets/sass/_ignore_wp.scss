@@ -313,17 +313,17 @@
 }
 .aboutSection02{
 	position: relative;
-	padding: 140px 0 100px;
+	padding: 120px 0 50px;
 }
 .aboutContent02{
 	position: relative;
-	margin: 18px 0 0 -5px;
+	margin: 30px 0 0 -5px;
 
 	.secTitle{
-		margin: 0 0 29px;
+		margin: 0 0 20px;
 	}
 	> p{
-		margin: 0 0 40px;
+		margin: 0 0 25px;
 		font-size: 22px;
 	}
 	.iconBox02{
@@ -336,7 +336,7 @@
 	}
 	.immiPressBtn{
 		padding: 0 34px;
-		margin: 28px 0 0;
+		margin: 20px 0 0;
 	}
 }
 
@@ -397,13 +397,15 @@
 	}
 }
 .testimonialSection02{
+	width: 100%;
+	background: url(assets/images/bg/image-5.png);
 	position: relative;
 	background-position: top center;
 	background-size: auto;
 	background-repeat: no-repeat;
 	z-index: 2;
 	overflow: hidden;
-	padding: 120px 0 40px;
+	padding: 55px 0 240px;
 
 	.animThumb{
 		top: 38px;
@@ -417,6 +419,11 @@
 		left: auto;
 		animation: rotated 20s infinite linear;
 	}
+}
+.testi-slider{
+	position: relative;
+    margin-top: -200px;
+    z-index: 3;
 }
 .blogSction02{
 	position: relative;
@@ -459,6 +466,8 @@
 	background: url(../images/home3/contact-bg.png);
 	background-position: center;
 	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
 	.subTitle {
 		color: #fff;
 	}

@@ -346,18 +346,18 @@
 
 .aboutSection02 {
   position: relative;
-  padding: 140px 0 100px;
+  padding: 120px 0 50px;
 }
 
 .aboutContent02 {
   position: relative;
-  margin: 18px 0 0 -5px;
+  margin: 30px 0 0 -5px;
 }
 .aboutContent02 .secTitle {
-  margin: 0 0 29px;
+  margin: 0 0 20px;
 }
 .aboutContent02 > p {
-  margin: 0 0 40px;
+  margin: 0 0 25px;
   font-size: 22px;
 }
 .aboutContent02 .iconBox02 {
@@ -370,7 +370,7 @@
 }
 .aboutContent02 .immiPressBtn {
   padding: 0 34px;
-  margin: 28px 0 0;
+  margin: 20px 0 0;
 }
 
 .serviceSection03 {
@@ -429,13 +429,15 @@
 }
 
 .testimonialSection02 {
+  width: 100%;
+  background: url(assets/images/bg/image-5.png);
   position: relative;
   background-position: top center;
   background-size: auto;
   background-repeat: no-repeat;
   z-index: 2;
   overflow: hidden;
-  padding: 120px 0 40px;
+  padding: 55px 0 240px;
 }
 .testimonialSection02 .animThumb {
   top: 38px;
@@ -448,6 +450,12 @@
   right: 0;
   left: auto;
   animation: rotated 20s infinite linear;
+}
+
+.testi-slider {
+  position: relative;
+  margin-top: -200px;
+  z-index: 3;
 }
 
 .blogSction02 {
@@ -493,6 +501,8 @@
   background: url(../images/home3/contact-bg.png);
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
 .home-contact .subTitle {
   color: #fff;
@@ -1045,7 +1055,6 @@ h6 {
   font-weight: 500;
   height: 58px;
   line-height: 58px;
-  border-radius: 4px;
   padding: 0 42px;
   text-align: center;
   border: none;
@@ -1543,7 +1552,7 @@ h1 {
   position: relative;
   color: #fff;
   border-right: 1px solid var(--body-color);
-  padding: 14.5px 72px 13px 10px;
+  padding: 14.5px 72px 13px 0;
 }
 .infoText i {
   display: inline-block;
@@ -1647,7 +1656,6 @@ h1 {
   height: 60px;
   line-height: 60px;
   padding: 0 32px;
-  border-radius: 5px;
 }
 
 .header01Inner {
@@ -3084,9 +3092,11 @@ header.fixedHeader {
 .contactWidget .contact-data .contact-info .icon {
   margin-right: 15px;
 }
-.contactWidget .contact-data .contact-info .icon i {
-  color: #B89B5E;
-  font-size: 25px;
+.contactWidget .contact-data .contact-info .icon img {
+  display: block;
+  width: 28px;
+  height: 24px;
+  object-fit: contain;
 }
 .contactWidget .contact-data .contact-info .data strong {
   color: #fff;
@@ -3118,7 +3128,6 @@ header.fixedHeader {
   border: 1px solid #fff;
   color: #fff;
   font-size: 20px;
-  border-radius: 5px;
   text-align: center;
   margin-right: 6px;
 }
@@ -3599,8 +3608,7 @@ header.fixedHeader.header02 {
   border-radius: 5px;
 }
 .serviceItem02 .serviceWrapper img {
-  width: 100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 3/1;
   object-fit: contain;
   mix-blend-mode: color;
 }
@@ -4309,7 +4317,6 @@ header.fixedHeader.header02 {
 .abThumb img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
 }
 .abThumb .mdLogo {
   width: 160px;
@@ -4497,7 +4504,6 @@ header.fixedHeader.header02 {
   text-transform: none;
   line-height: 60px;
   padding: 22px 32px;
-  border-radius: 5px;
   background-color: #1A2B56;
   color: #fff;
   font-size: 16px;
@@ -5554,7 +5560,6 @@ header.fixedHeader.header04 {
 }
 .faqTabTabsNav li button {
   border: 2px solid var(--Borders, #F4F4F4);
-  border-radius: 5px;
   outline: none;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
@@ -5633,12 +5638,16 @@ header.fixedHeader.header04 {
   justify-content: center;
   font-size: 45px;
 }
-.iconBox05 .ibBox i {
+.iconBox05 .ibBox img {
   display: block;
   -webkit-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
   color: #B89B5E;
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
 .iconBox05 .ibTitle {
   font-size: 16px;
@@ -7541,8 +7550,8 @@ header.fixedHeader.header04 {
     margin: 0;
   }
   .topbar01 .topBarWrapper .infoText {
-    padding-right: 15px;
-    margin-left: 10px;
+    padding-right: 25px;
+    margin-left: 25px;
   }
   .topbar01 .topBarWrapper .infoText.infoText02 {
     padding-left: 18px;
