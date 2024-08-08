@@ -1558,7 +1558,7 @@ h1 {
   position: relative;
   color: #fff;
   border-right: 1px solid var(--body-color);
-  padding: 14.5px 72px 13px 0;
+  padding: 14.5px 72px 13px 13px;
 }
 .infoText i {
   display: inline-block;
