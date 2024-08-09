@@ -1568,8 +1568,8 @@ h1 {
   padding: 29px 0;
 }
 .logo01 img {
-  height: 52px;
-  width: 170px;
+  height: 48px;
+  width: 227px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -2924,12 +2924,17 @@ header.fixedHeader {
   display: flex;
   margin-bottom: 12px;
 }
+.contactWidget .contact-data .contact-info .location img {
+  margin-right: 17px;
+}
 .contactWidget .contact-data .contact-info .icon {
   margin-right: 15px;
 }
-.contactWidget .contact-data .contact-info .icon i {
-  font-size: 24px;
-  color: #B89B5E;
+.contactWidget .contact-data .contact-info .icon img {
+  width: 28px;
+  height: 28px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .contactWidget .contact-data .contact-info .data strong {
   color: #fff;
@@ -4445,6 +4450,7 @@ header.fixedHeader.header02 {
   border-radius: 5px;
   padding: 45px 52px 68px 30px;
   margin: 0 0 30px;
+  min-height: 478px;
 }
 .testimonialSlider02 .testimonilaItem02 .tsAuthor {
   position: relative;

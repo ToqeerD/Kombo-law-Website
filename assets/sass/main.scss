@@ -217,8 +217,8 @@ h1{
     padding: 29px 0;
     
     img{
-        height: 52px;
-        width: 170px;
+        height: 48px;
+        width: 227px;
         object-fit: contain;
     }
 }
@@ -1664,11 +1664,17 @@ header.fixedHeader {
         .contact-info{
             display: flex;
             margin-bottom: 12px;
+            .location{
+                img{
+                  margin-right: 17px;
+                }
+            }
             .icon{
                 margin-right: 15px;
-                i{
-                  font-size: 24px;
-                  color: #B89B5E;
+                img{
+                  width: 28px;
+                  height: 28px;
+                  object-fit: cover;
                 }
             }
             .data{
@@ -3318,6 +3324,7 @@ header.fixedHeader.header02{
         border-radius: 5px;
         padding: 45px 52px 68px 30px;
         margin: 0 0 30px;
+        min-height: 478px;
 
         .tsAuthor{
             position: relative;
