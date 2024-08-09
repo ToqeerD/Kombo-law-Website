@@ -100,11 +100,12 @@
     }
     if($(".testimonialSlider02").length > 0){
         $('.testimonialSlider02').owlCarousel({
-             loop: false,
+             loop: true,
              margin: 24,
              responsiveClass: true,
              dots: true,
              autoplay: false,
+             autoplay:true,
              smartSpeed: 600,
              center: false,
              nav: false,
