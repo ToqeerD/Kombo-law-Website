@@ -727,6 +727,12 @@
     .iconBox03 .ibTitle{
         font-size: 22px;
     }
+    .meet .admitted-box .boxes .admit-box{
+        width: 100% !important;
+    }
+    .meet .meet-data p {
+        font-size: 16px !important;
+    }
 }
 /*------------------- 3. Responsive For Tab Device -------------------*/
 @media (min-width: 768px) and (max-width: 991px){
@@ -1067,6 +1073,28 @@
     .topbar01 .topBarSocial{
         margin-left: 0;
         border-left: 0;
+    }
+    .immigration{
+        margin-left: 0 !important;
+        margin: 10px 0;
+    } 
+    .tmjAccordion .card .card-body .icon-box a {
+        font-size: 19px;
+    }
+    .meet .meet-head h2 {
+        font-size: 40px !important;
+    }
+    .meet .meet-data p {
+        font-size: 16px !important;
+    }
+    .meet .admitted-box .boxes .admit-box{
+        width: 100% !important;
+        margin: 10px 0 ;
+    }
+    .meet .meet-elan .meet-details img{
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 15px;
     }
 }
 /*------------------- 5. Responsive For Mobile Device -------------------*/
@@ -1757,5 +1785,40 @@
     .testimonilaItem02 .quoteIcon {
         right: 10px;
         top: 24px;
+    }
+    .iconBox02 a {
+        font-size: 18px;
+    }
+    .cusrow .about-sm{
+        margin-top: 20px;
+        display: none;
+    }
+    .tmjAccordion .card .card-header .title {
+        font-size: 15px;
+    }
+    .immigration {
+        margin-left: 0 !important;
+        margin: 12px 0;
+        span{
+            display: none;
+        }
+    }
+    .tmjAccordion .card .card-body .icon-box a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #1A2B56;
+    }
+    .meet .meet-head span {
+        font-size: 20px !important;
+    }
+    .meet .meet-head h2 {
+        font-size: 30px !important;
+    }
+    .meet .meet-data p {
+        font-size: 16px !important;
+    }
+    .meet .admitted-box .boxes .admit-box{
+        width: 100% !important;
+        margin: 12px 0;
     }
 }

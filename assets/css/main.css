@@ -61,7 +61,7 @@
 }
 .aboutContent01 .subTitle {
   font-weight: 600;
-  margin-bottom: 31px;
+  margin-bottom: 13px;
 }
 .aboutContent01 .secTitle {
   margin: 0 0 27px;
@@ -1854,7 +1854,8 @@ h1 {
   border-bottom: none;
 }
 
-.form-control, .form-select {
+.form-control,
+.form-select {
   border-radius: 0 !important;
 }
 
@@ -2104,7 +2105,10 @@ header.fixedHeader {
 .serviceItem01 .immiPressBtn {
   background: var(--heading-color);
 }
-.serviceItem01 .immiPressBtn::before, .serviceItem01 .immiPressBtn::after, .serviceItem01 .immiPressBtn span::before, .serviceItem01 .immiPressBtn span::after {
+.serviceItem01 .immiPressBtn::before,
+.serviceItem01 .immiPressBtn::after,
+.serviceItem01 .immiPressBtn span::before,
+.serviceItem01 .immiPressBtn span::after {
   background: var(--primay-color);
 }
 
@@ -2115,7 +2119,7 @@ header.fixedHeader {
   border-radius: 6px;
 }
 .abVideo img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 6px;
 }
@@ -2154,6 +2158,9 @@ header.fixedHeader {
   position: relative;
   min-height: 76px;
   padding: 0 0 0 92px;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
 }
 .iconBox02 .ibBox {
   position: absolute;
@@ -2175,6 +2182,12 @@ header.fixedHeader {
   -webkit-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
+}
+.iconBox02 a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1A2B56;
+  text-decoration: underline;
 }
 .iconBox02 .ibTitle {
   font-size: 22px;
@@ -2449,7 +2462,8 @@ header.fixedHeader {
   color: #fff !important;
   border: 1px solid rgba(255, 255, 255, 0.6) !important;
 }
-.home-contact input::placeholder, .home-contact textarea::placeholder {
+.home-contact input::placeholder,
+.home-contact textarea::placeholder {
   color: #fff !important;
 }
 .home-contact .nice-select::after {
@@ -2556,7 +2570,8 @@ header.fixedHeader {
   transition: all 0.4s ease;
 }
 .contactForm input:focus:not([type=submit]):focus:not([type=radio]):focus:not([type=checkbox]),
-.contactForm textarea:focus, .contactForm .nice-select.open {
+.contactForm textarea:focus,
+.contactForm .nice-select.open {
   border-color: rgb(83, 97, 132);
 }
 .contactForm input:focus::placeholder,
@@ -2683,7 +2698,10 @@ header.fixedHeader {
   padding: 0 27px;
   background: var(--heading-color);
 }
-.coachingItem01 .immiPressBtn::before, .coachingItem01 .immiPressBtn::after, .coachingItem01 .immiPressBtn span::before, .coachingItem01 .immiPressBtn span::after {
+.coachingItem01 .immiPressBtn::before,
+.coachingItem01 .immiPressBtn::after,
+.coachingItem01 .immiPressBtn span::before,
+.coachingItem01 .immiPressBtn span::after {
   background: var(--primay-color);
 }
 
@@ -3548,7 +3566,10 @@ header.fixedHeader.header02 {
 .contactFWrapper02 .immiPressBtn {
   background: var(--heading-color);
 }
-.contactFWrapper02 .immiPressBtn::before, .contactFWrapper02 .immiPressBtn::after, .contactFWrapper02 .immiPressBtn span::before, .contactFWrapper02 .immiPressBtn span::after {
+.contactFWrapper02 .immiPressBtn::before,
+.contactFWrapper02 .immiPressBtn::after,
+.contactFWrapper02 .immiPressBtn span::before,
+.contactFWrapper02 .immiPressBtn span::after {
   background: var(--primay-color);
 }
 .contactFWrapper02 .secTitle {
@@ -3757,7 +3778,10 @@ header.fixedHeader.header02 {
   margin-right: 58px;
   background: var(--body-color);
 }
-.coachingItem02 .immiPressBtn::before, .coachingItem02 .immiPressBtn::after, .coachingItem02 .immiPressBtn span::before, .coachingItem02 .immiPressBtn span::after {
+.coachingItem02 .immiPressBtn::before,
+.coachingItem02 .immiPressBtn::after,
+.coachingItem02 .immiPressBtn span::before,
+.coachingItem02 .immiPressBtn span::after {
   background: var(--primay-color);
 }
 .coachingItem02:hover .coachingThumb img {
@@ -4064,7 +4088,10 @@ header.fixedHeader.header02 {
 .mailForm button:hover {
   color: var(--primay-color);
 }
-.mailForm .immiPressBtn::before, .mailForm .immiPressBtn::after, .mailForm .immiPressBtn span::before, .mailForm .immiPressBtn span::after {
+.mailForm .immiPressBtn::before,
+.mailForm .immiPressBtn::after,
+.mailForm .immiPressBtn span::before,
+.mailForm .immiPressBtn span::after {
   background: #fff;
 }
 
@@ -4538,10 +4565,14 @@ header.fixedHeader.header02 {
   position: relative;
   font-size: 22px;
   line-height: 26px;
-  font-weight: 500;
-  color: var(--heading-color);
+  font-weight: 700;
+  color: #FFFFFF;
   margin: 0;
   padding: 23px 55px 22px 20px;
+  height: 55px;
+  background-color: #1A2B56;
+  display: flex;
+  align-items: center;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -4554,15 +4585,15 @@ header.fixedHeader.header02 {
   position: absolute;
   right: 26px;
   top: 0;
-  fill: var(--heading-color);
+  fill: #fff;
   bottom: 0;
   margin: auto;
 }
 .tmjAccordion .card.active .card-header .title, .tmjAccordion .card:hover .card-header .title {
-  color: var(--primay-color);
+  color: #fff;
 }
 .tmjAccordion .card.active .card-header .title svg, .tmjAccordion .card:hover .card-header .title svg {
-  fill: var(--primay-color);
+  fill: #fff;
 }
 .tmjAccordion .card.active .card-header .title svg {
   transform: rotate(180deg);
@@ -4570,12 +4601,32 @@ header.fixedHeader.header02 {
 }
 .tmjAccordion .card .card-body {
   margin: 0;
-  padding: 0 20px 28px;
+  padding: 20px 28px;
   color: var(--body-color);
+  background-color: #F4F4F4;
 }
 .tmjAccordion .card .card-body ul {
   list-style-type: disc;
   padding-left: 30px;
+}
+.tmjAccordion .card .card-body .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tmjAccordion .card .card-body .icon-box .icon {
+  width: 77px;
+  height: 77px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1019607843);
+}
+.tmjAccordion .card .card-body .icon-box a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1A2B56;
 }
 .tmjAccordion .card.active {
   border: 1px solid rgba(221, 221, 221, 0.3);
@@ -4872,7 +4923,10 @@ header.fixedHeader.header02 {
   transition: all 0.4s ease;
   fill: #fff;
 }
-.blogItem02 .immiPressBtn::before, .blogItem02 .immiPressBtn::after, .blogItem02 .immiPressBtn span::before, .blogItem02 .immiPressBtn span::after {
+.blogItem02 .immiPressBtn::before,
+.blogItem02 .immiPressBtn::after,
+.blogItem02 .immiPressBtn span::before,
+.blogItem02 .immiPressBtn span::after {
   background: var(--primay-color);
 }
 .blogItem02:hover .blogThumb::after {
@@ -4962,7 +5016,10 @@ header.fixedHeader.header02 {
 .header04 .immiPressBtn:hover {
   color: var(--primay-color);
 }
-.header04 .immiPressBtn::before, .header04 .immiPressBtn::after, .header04 .immiPressBtn span::before, .header04 .immiPressBtn span::after {
+.header04 .immiPressBtn::before,
+.header04 .immiPressBtn::after,
+.header04 .immiPressBtn span::before,
+.header04 .immiPressBtn span::after {
   background: #fff;
 }
 .header04 .blanks {
@@ -5826,7 +5883,10 @@ header.fixedHeader.header04 {
   transition: all 0.4s ease;
   fill: #fff;
 }
-.blogItem03 .immiPressBtn::before, .blogItem03 .immiPressBtn::after, .blogItem03 .immiPressBtn span::before, .blogItem03 .immiPressBtn span::after {
+.blogItem03 .immiPressBtn::before,
+.blogItem03 .immiPressBtn::after,
+.blogItem03 .immiPressBtn span::before,
+.blogItem03 .immiPressBtn span::after {
   background: var(--primay-color);
 }
 .blogItem03:hover .blogThumb::after {
@@ -6455,7 +6515,8 @@ header.fixedHeader.header04 {
   position: relative;
 }
 .tmContact .contactForm input:not([type=submit]):not([type=radio]):not([type=checkbox]),
-.tmContact .contactForm textarea, .tmContact .contactForm .contactForm .nice-select {
+.tmContact .contactForm textarea,
+.tmContact .contactForm .contactForm .nice-select {
   border: 1px solid #DDDDDD;
   height: 55px;
   font-size: 16px;
@@ -7123,7 +7184,8 @@ header.fixedHeader.header04 {
 .blDContent p.sbText {
   margin-right: 95px;
 }
-.blDContent .wp-block-quote, .blDContent blockquote.wp-block-quote {
+.blDContent .wp-block-quote,
+.blDContent blockquote.wp-block-quote {
   background: #FFFFFF;
   box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
@@ -7132,7 +7194,8 @@ header.fixedHeader.header04 {
   position: relative;
   margin: 40px 0;
 }
-.blDContent .wp-block-quote::before, .blDContent blockquote.wp-block-quote::before {
+.blDContent .wp-block-quote::before,
+.blDContent blockquote.wp-block-quote::before {
   display: block;
   width: 37px;
   height: 35px;
@@ -7141,10 +7204,12 @@ header.fixedHeader.header04 {
   position: relative;
   margin: 0 0 18px;
 }
-.blDContent .wp-block-quote p, .blDContent blockquote.wp-block-quote p {
+.blDContent .wp-block-quote p,
+.blDContent blockquote.wp-block-quote p {
   margin: 0 0 14px;
 }
-.blDContent .wp-block-quote cite, .blDContent blockquote.wp-block-quote cite {
+.blDContent .wp-block-quote cite,
+.blDContent blockquote.wp-block-quote cite {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -7152,7 +7217,8 @@ header.fixedHeader.header04 {
   font-family: var(--heading-font);
   font-style: normal;
 }
-.blDContent .wp-block-quote cite::before, .blDContent blockquote.wp-block-quote cite::before {
+.blDContent .wp-block-quote cite::before,
+.blDContent blockquote.wp-block-quote cite::before {
   display: inline-block;
   width: 43px;
   height: 3px;
@@ -7270,7 +7336,8 @@ header.fixedHeader.header04 {
 .commentForm .commentHeading {
   margin-bottom: 40px;
 }
-.commentForm textarea, .commentForm input {
+.commentForm textarea,
+.commentForm input {
   font-size: 16px;
   font-weight: 400;
   color: var(--body-color);
@@ -7381,7 +7448,10 @@ header.fixedHeader.header04 {
 .comingSoonContent .mailForm .immiPressBtn:hover {
   color: #fff;
 }
-.comingSoonContent .mailForm .immiPressBtn::before, .comingSoonContent .mailForm .immiPressBtn::after, .comingSoonContent .mailForm .immiPressBtn span::before, .comingSoonContent .mailForm .immiPressBtn span::after {
+.comingSoonContent .mailForm .immiPressBtn::before,
+.comingSoonContent .mailForm .immiPressBtn::after,
+.comingSoonContent .mailForm .immiPressBtn span::before,
+.comingSoonContent .mailForm .immiPressBtn span::after {
   background: var(--heading-color);
 }
 
@@ -8180,6 +8250,12 @@ header.fixedHeader.header04 {
   .iconBox03 .ibTitle {
     font-size: 22px;
   }
+  .meet .admitted-box .boxes .admit-box {
+    width: 100% !important;
+  }
+  .meet .meet-data p {
+    font-size: 16px !important;
+  }
 }
 /*------------------- 3. Responsive For Tab Device -------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -8569,6 +8645,28 @@ header.fixedHeader.header04 {
   .topbar01 .topBarSocial {
     margin-left: 0;
     border-left: 0;
+  }
+  .immigration {
+    margin-left: 0 !important;
+    margin: 10px 0;
+  }
+  .tmjAccordion .card .card-body .icon-box a {
+    font-size: 19px;
+  }
+  .meet .meet-head h2 {
+    font-size: 40px !important;
+  }
+  .meet .meet-data p {
+    font-size: 16px !important;
+  }
+  .meet .admitted-box .boxes .admit-box {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+  .meet .meet-elan .meet-details img {
+    float: none !important;
+    width: 100% !important;
+    margin-bottom: 15px;
   }
 }
 /*------------------- 5. Responsive For Mobile Device -------------------*/
@@ -9223,21 +9321,149 @@ header.fixedHeader.header04 {
     right: 10px;
     top: 24px;
   }
+  .iconBox02 a {
+    font-size: 18px;
+  }
+  .cusrow .about-sm {
+    margin-top: 20px;
+    display: none;
+  }
+  .tmjAccordion .card .card-header .title {
+    font-size: 15px;
+  }
+  .immigration {
+    margin-left: 0 !important;
+    margin: 12px 0;
+  }
+  .immigration span {
+    display: none;
+  }
+  .tmjAccordion .card .card-body .icon-box a {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1A2B56;
+  }
+  .meet .meet-head span {
+    font-size: 20px !important;
+  }
+  .meet .meet-head h2 {
+    font-size: 30px !important;
+  }
+  .meet .meet-data p {
+    font-size: 16px !important;
+  }
+  .meet .admitted-box .boxes .admit-box {
+    width: 100% !important;
+    margin: 12px 0;
+  }
 }
 .map-container {
   position: relative;
   width: 100%;
-  height: 490px; /* Reduce the height to hide the top bar */
+  height: 490px;
+  /* Reduce the height to hide the top bar */
   overflow: hidden;
 }
 
 .map-container iframe {
   position: absolute;
-  top: -60px; /* Adjust this value to hide the top bar */
+  top: -60px;
+  /* Adjust this value to hide the top bar */
   left: 0;
   width: 100%;
-  height: 550px; /* Increase the height to make up for the hidden area */
+  height: 550px;
+  /* Increase the height to make up for the hidden area */
   border: 0;
+}
+
+.our-mission {
+  width: 100%;
+  background: url(../images/bg/our-mission.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+.our-mission .mission-head {
+  text-align: center;
+}
+.our-mission .mission-head span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00AED4;
+}
+.our-mission .mission-head h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1A2B56;
+}
+
+.meet {
+  padding: 80px 0;
+  background-color: #F4F4F4;
+}
+.meet .meet-head {
+  text-align: center;
+}
+.meet .meet-head span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00AED4;
+}
+.meet .meet-head h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1A2B56;
+}
+.meet .meet-data {
+  margin-top: 20px;
+}
+.meet .meet-data p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #536184;
+}
+.meet .meet-elan .meet-details img {
+  float: left;
+  width: 626px;
+  height: 713px;
+  margin-right: 25px;
+}
+.meet .admitted-box {
+  margin-top: 25px;
+}
+.meet .admitted-box .admit-head {
+  text-align: center;
+}
+.meet .admitted-box .admit-head h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A2B56;
+  margin-bottom: 25px;
+}
+.meet .admitted-box .boxes .admit-box {
+  background-color: #FFFFFF;
+  width: 289px;
+  height: 289px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+.meet .admitted-box .boxes .admit-box .icon {
+  width: 131px;
+  height: 131px;
+  background-color: rgba(26, 43, 86, 0.6980392157);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meet .admitted-box .boxes .admit-box h3 {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1A2B56;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
