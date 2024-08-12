@@ -2456,7 +2456,7 @@ header.fixedHeader.header02 {
         img {
             aspect-ratio: 3/1;
             object-fit: contain;
-            mix-blend-mode: color;
+            // mix-blend-mode: color;
         }
     }
 
@@ -2466,8 +2466,12 @@ header.fixedHeader.header02 {
         font-size: 70px;
         display: inline-block;
         text-align: center;
-        margin: 0 30px 23px;
+        margin: 30px 23px;
         @include transition(0.6s);
+        img{
+            width: 77px;
+            height: 77px;
+        }
     }
 
     h3 {
@@ -4601,7 +4605,7 @@ header.fixedHeader.header04 {
 
 /*-- Service Item --*/
 .si04 {
-    box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.1);
+    background: #fff;
     margin-top: 0;
 
     .serviceWrapper::after {
@@ -5174,7 +5178,7 @@ header.fixedHeader.header04 {
     }
 
     p {
-        margin: 0 0 39px;
+        margin: 0 0 20px;
     }
 
     img {
@@ -5201,8 +5205,25 @@ header.fixedHeader.header04 {
         line-height: 36px;
         margin: 43px 0 14px;
     }
+    
 }
-
+.services-boxes {
+    .imi-box{
+        height: 100px;
+        width: 100%;
+        background-color: #F4F4F4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+}
 .listItem {
     position: relative;
     margin: 0;
@@ -7007,4 +7028,7 @@ header.fixedHeader.header04 {
             }
         }
     }
+}
+.sr-slider{
+    background-color: #F4F4F4 !important;
 }
