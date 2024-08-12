@@ -2771,6 +2771,7 @@ header.fixedHeader {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  height: 95%;
 }
 .blogItem01 .blogThumb {
   position: relative;
@@ -2784,7 +2785,7 @@ header.fixedHeader {
   display: block;
   text-align: center;
   width: 75px;
-  height: 75px;
+  height: 90px;
   line-height: 20px;
   border-radius: 4px;
   font-size: 16px;
@@ -2883,7 +2884,7 @@ header.fixedHeader {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  fill: var(--primay-color);
+  fill: #00AED4;
 }
 .blogItem01 .blogContent .rmBtn:hover {
   color: var(--primay-color);
@@ -6938,7 +6939,7 @@ header.fixedHeader.header04 {
   text-align: center;
   background: #FFFFFF;
   font-size: 14px;
-  color: var(--primay-color);
+  color: #00AED4;
   line-height: 30px;
   position: absolute;
   right: 0;
@@ -7034,7 +7035,7 @@ header.fixedHeader.header04 {
 .ppPostItem .biMeta span svg {
   display: inline-block;
   height: 16px;
-  fill: var(--primay-color);
+  fill: #00AED4;
   margin-right: 10px;
 }
 .ppPostItem h4 {

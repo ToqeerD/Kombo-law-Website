@@ -1458,6 +1458,7 @@ header.fixedHeader {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
     border-radius: 4px;
     @include transition;
+    height: 95%;
 
     .blogThumb {
         position: relative;
@@ -1472,7 +1473,7 @@ header.fixedHeader {
             display: block;
             text-align: center;
             width: 75px;
-            height: 75px;
+            height: 90px;
             line-height: 20px;
             border-radius: 4px;
             font-size: 16px;
@@ -1572,7 +1573,7 @@ header.fixedHeader {
                 height: 10px;
                 margin-left: 19px;
                 @include transition;
-                fill: $primay-color;
+                fill: #00AED4;
             }
 
             &:hover {
@@ -6154,7 +6155,7 @@ header.fixedHeader.header04 {
                     text-align: center;
                     background: #FFFFFF;
                     font-size: 14px;
-                    color: var(--primay-color);
+                    color: #00AED4;
                     line-height: 30px;
                     position: absolute;
                     right: 0;
@@ -6261,7 +6262,7 @@ header.fixedHeader.header04 {
             svg {
                 display: inline-block;
                 height: 16px;
-                fill: var(--primay-color);
+                fill: #00AED4;
                 margin-right: 10px;
             }
         }
