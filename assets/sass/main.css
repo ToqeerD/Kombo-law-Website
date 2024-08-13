@@ -659,6 +659,9 @@
   .aboutSection01 .aboutContent01 {
     margin-left: 20px;
   }
+  .secTitle {
+    font-size: 40px !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .aboutSection03 .aboutContent02,
@@ -4428,11 +4431,11 @@ header.fixedHeader.header02 {
   font-size: 22px;
   line-height: 26px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #1A2B56;
   margin: 0;
   padding: 23px 55px 22px 20px;
   height: 55px;
-  background-color: #1A2B56;
+  background-color: transparent !important;
   display: flex;
   align-items: center;
   transition: all 0.4s ease;
@@ -4448,10 +4451,10 @@ header.fixedHeader.header02 {
   margin: auto;
 }
 .tmjAccordion .card.active .card-header .title, .tmjAccordion .card:hover .card-header .title {
-  color: #fff;
+  color: #1A2B56;
 }
 .tmjAccordion .card.active .card-header .title svg, .tmjAccordion .card:hover .card-header .title svg {
-  fill: #fff;
+  fill: #1A2B56;
 }
 .tmjAccordion .card.active .card-header .title svg {
   transform: rotate(180deg);
@@ -4461,7 +4464,6 @@ header.fixedHeader.header02 {
   margin: 0;
   padding: 20px 28px;
   color: var(--body-color);
-  background-color: #F4F4F4;
 }
 .tmjAccordion .card .card-body ul {
   list-style-type: disc;
@@ -4487,8 +4489,7 @@ header.fixedHeader.header02 {
   color: #1A2B56;
 }
 .tmjAccordion .card.active {
-  border: 1px solid rgba(221, 221, 221, 0.3);
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border: 2px solid #F4F4F4;
 }
 
 .testimonilaItem02 {
@@ -9171,7 +9172,7 @@ header.fixedHeader.header04 {
   margin-top: 20px;
 }
 .meet .meet-data p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   color: #536184;
 }
@@ -9182,7 +9183,8 @@ header.fixedHeader.header04 {
   float: left;
   width: 626px;
   height: 713px;
-  margin-right: 25px;
+  margin-right: 40px;
+  margin-bottom: 20px;
 }
 .meet .admitted-box {
   margin-top: 25px;

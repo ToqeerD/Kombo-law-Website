@@ -3516,11 +3516,11 @@ header.fixedHeader.header02 {
                 font-size: 22px;
                 line-height: 26px;
                 font-weight: 700;
-                color: #FFFFFF;
+                color: #1A2B56;
                 margin: 0;
                 padding: 23px 55px 22px 20px;
                 height: 55px;
-                background-color: #1A2B56;
+                background-color: transparent !important;
                 display: flex;
                 align-items: center;
                 @include transition;
@@ -3540,10 +3540,10 @@ header.fixedHeader.header02 {
 
         &.active .card-header .title,
         &:hover .card-header .title {
-            color: #fff;
+            color: #1A2B56;
 
             svg {
-                fill: #fff;
+                fill: #1A2B56;
             }
         }
 
@@ -3556,7 +3556,7 @@ header.fixedHeader.header02 {
             margin: 0;
             padding: 20px 28px;
             color: var(--body-color);
-            background-color: #F4F4F4;
+            // background-color: #F4F4F4;
 
             ul {
                 list-style-type: disc;
@@ -3588,8 +3588,7 @@ header.fixedHeader.header02 {
         }
 
         &.active {
-            border: 1px solid rgba(221, 221, 221, 0.3);
-            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+            border: 2px solid  #F4F4F4;
         }
     }
 }
@@ -6991,7 +6990,7 @@ header.fixedHeader.header04 {
     .meet-data{
         margin-top: 20px;
         p{
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 400;
             color: #536184;
         }
@@ -7004,7 +7003,9 @@ header.fixedHeader.header04 {
             img{
                 float: left;
                 width: 626px;
-                height: 713px;margin-right: 25px;
+                height: 713px;
+                margin-right: 40px;
+                margin-bottom: 20px;
             }
         }
     }
