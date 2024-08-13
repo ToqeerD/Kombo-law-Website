@@ -505,8 +505,10 @@
 }
 .abPageAbout{
 	position: relative;
-	.row{
-		align-items: center;
+	p{
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 26px;
 	}
 }
 .abPageCountry{
@@ -590,7 +592,7 @@
 
 @media (min-width: 1200px) and (max-width: 1400px){
 	.aboutContent01{
-		margin-top: 0;
+		margin-top: 20px;
 		.cusrow{
 			margin-right: 0;
 		}

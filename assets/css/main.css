@@ -543,8 +543,10 @@
 .abPageAbout {
   position: relative;
 }
-.abPageAbout .row {
-  align-items: center;
+.abPageAbout p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .abPageCountry {
@@ -633,7 +635,7 @@
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .aboutContent01 {
-    margin-top: 0;
+    margin-top: 20px;
   }
   .aboutContent01 .cusrow {
     margin-right: 0;
@@ -6017,10 +6019,24 @@ header.fixedHeader.header04 {
   position: relative;
   padding: 85px 0 85px;
 }
+.singleServiceSection .tmjAccordion .card .card-header .title {
+  background-color: #fff !important;
+  color: #1A2B56;
+}
 
 .serviceDConArea {
   position: relative;
   margin: 0 6px 0 0;
+}
+.serviceDConArea .tmjAccordion .card.active, .serviceDConArea .tmjAccordion .card {
+  border: 2px solid #F4F4F4 !important;
+  box-shadow: none;
+}
+.serviceDConArea .tmjAccordion .card .card-header .title svg {
+  fill: #1A2B56;
+}
+.serviceDConArea .tmjAccordion .card .card-body {
+  background-color: transparent;
 }
 
 .serviceDThumb {
@@ -6371,7 +6387,7 @@ header.fixedHeader.header04 {
 .contacInfotWidget img {
   position: relative;
   z-index: 2;
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   text-align: center;
   display: block;
@@ -9422,7 +9438,7 @@ header.fixedHeader.header04 {
 }
 
 .meet {
-  padding: 80px 0;
+  padding: 120px 0;
   background-color: #F4F4F4;
 }
 .meet .meet-head {
@@ -9437,14 +9453,18 @@ header.fixedHeader.header04 {
   font-size: 50px;
   font-weight: 700;
   color: #1A2B56;
+  margin-bottom: 30px;
 }
 .meet .meet-data {
   margin-top: 20px;
 }
 .meet .meet-data p {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   color: #536184;
+}
+.meet .meet-elan p {
+  font-size: 20px;
 }
 .meet .meet-elan .meet-details img {
   float: left;
@@ -9470,9 +9490,8 @@ header.fixedHeader.header04 {
   height: 289px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  padding: 0 30px;
+  padding: 35px 0 0;
 }
 .meet .admitted-box .boxes .admit-box .icon {
   width: 131px;
@@ -9490,8 +9509,51 @@ header.fixedHeader.header04 {
   text-align: center;
 }
 
+.elan {
+  background-color: #fff;
+  padding: 120px 0 50px;
+}
+
 .sr-slider {
   background-color: #F4F4F4 !important;
+}
+
+.ServicePageSection .imi-box {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 15px 12px;
+  display: flex;
+  align-items: center;
+  height: 90%;
+  margin: 15px 0;
+}
+.ServicePageSection .imi-box .img {
+  width: 40%;
+  height: 100%;
+}
+.ServicePageSection .imi-box .img img {
+  width: 340px;
+  height: 98%;
+  object-fit: cover;
+}
+.ServicePageSection .imi-box .text {
+  width: 60%;
+  margin-left: 25px;
+}
+.ServicePageSection .imi-box .text h3 {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A2B56;
+}
+.ServicePageSection .imi-box .text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.ServicePageSection .imi-box .text a {
+  background-color: #1A2B56;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -129,6 +129,7 @@
             navText: ['<i class="flaticon-right-arrow-angle"></i>', '<i class="flaticon-right-arrow-angle"></i>'],
             dots: false,
             items: 5,
+            autoplay: 2000,
             responsiveClass:true,
             responsive:{
                 0:{

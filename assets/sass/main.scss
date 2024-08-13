@@ -5139,11 +5139,25 @@ header.fixedHeader.header04 {
 .singleServiceSection {
     position: relative;
     padding: 85px 0 85px;
+    .tmjAccordion .card .card-header .title{
+        background-color: #fff !important;
+        color: #1A2B56;
+    }
 }
 
 .serviceDConArea {
     position: relative;
     margin: 0 6px 0 0;
+    .tmjAccordion .card.active, .tmjAccordion .card{
+        border: 2px solid  #F4F4F4 !important;
+        box-shadow: none;
+    }
+    .tmjAccordion .card .card-header .title svg{
+        fill: #1A2B56;
+    }
+    .tmjAccordion .card .card-body{
+        background-color: transparent;
+    }
 }
 
 .serviceDThumb {
@@ -5529,7 +5543,7 @@ header.fixedHeader.header04 {
     img {
         position: relative;
         z-index: 2;
-        max-width: 100%;
+        width: 100%;
         margin: auto;
         text-align: center;
         display: block;
@@ -6957,7 +6971,7 @@ header.fixedHeader.header04 {
 
 // about-rajan
 .meet {
-    padding: 80px 0;
+    padding: 120px 0;
     background-color: #F4F4F4;
     .meet-head{
         text-align: center;
@@ -6970,17 +6984,22 @@ header.fixedHeader.header04 {
             font-size: 50px;
             font-weight: 700;
             color: #1A2B56;
+            margin-bottom: 30px;
         }
     }
+    
     .meet-data{
         margin-top: 20px;
         p{
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 400;
             color: #536184;
         }
     }
     .meet-elan{
+        p{
+            font-size: 20px;
+        }
         .meet-details{
             img{
                 float: left;
@@ -7007,9 +7026,8 @@ header.fixedHeader.header04 {
                 height: 289px;
                 display: flex;
                 align-items: center;
-                justify-content: center;
                 flex-direction: column;
-                padding: 0 30px;
+                padding: 35px 0 0;
                 .icon{
                     width: 131px;
                     height: 131px;
@@ -7029,6 +7047,51 @@ header.fixedHeader.header04 {
         }
     }
 }
+.elan{
+    background-color: #fff;
+    padding: 120px 0 50px;
+}
 .sr-slider{
     background-color: #F4F4F4 !important;
+}
+.ServicePageSection{
+    .imi-box{
+        width: 100%;
+        background-color: #fff;
+        padding: 15px 15px 12px;
+        display: flex;
+        align-items: center;
+        height: 90%;
+        margin: 15px 0;
+        .img{
+            width: 40%;
+            height: 100%;
+            img{
+                width: 340px;
+                height: 98%;
+                object-fit: cover;
+            }
+        }
+        .text{
+            width: 60%;
+            margin-left: 25px;
+            h3{
+                margin-bottom: 0;
+                font-size: 24px;
+                font-weight: 700;
+                color: #1A2B56;
+               
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+            }
+            a{
+                background-color: #1A2B56;
+                font-size: 15px;
+                font-weight: 600;
+            
+            }
+        }
+    }
 }
