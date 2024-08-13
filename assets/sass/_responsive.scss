@@ -533,6 +533,12 @@
     .coachingInfo .coachingDCon{
         padding: 0;
     }
+    .meet .meet-elan p {
+        font-size: 16px !important;
+    }
+    .serviceItem02 p {
+		margin: 0 22px 35px !important;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
     .countryTabTabsNav li button{
@@ -1095,6 +1101,7 @@
         float: none !important;
         width: 100% !important;
         margin-bottom: 15px;
+        height: auto !important;
     }
 }
 /*------------------- 5. Responsive For Mobile Device -------------------*/
@@ -1550,6 +1557,8 @@
         right: 10px;
         top: 24px;
     }
+   
+    
 }
 @media (max-width: 575px){
     .countryTabTabsNav li button:hover::after, .countryTabTabsNav li button.active::after{
