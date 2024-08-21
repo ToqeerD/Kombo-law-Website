@@ -362,7 +362,7 @@
 }
 .aboutContent02 > p {
   margin: 0 0 25px;
-  font-size: 22px;
+  font-size: 18px;
 }
 .aboutContent02 .iconBox02 {
   margin: 0 15px 31px 0;
@@ -544,7 +544,7 @@
   position: relative;
 }
 .abPageAbout p {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
 }
@@ -3051,7 +3051,7 @@ header.fixedHeader {
 .aboutWidget p {
   color: #fff;
   margin-bottom: 37px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
 }
 .aboutWidget .iconBox02 {
@@ -3138,7 +3138,7 @@ header.fixedHeader {
   color: inherit;
   padding-left: 16px;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   display: block;
 }
@@ -4659,7 +4659,7 @@ header.fixedHeader.header02 {
   position: absolute;
   right: 26px;
   top: 0;
-  fill: #fff;
+  fill: #1A2B56;
   bottom: 0;
   margin: auto;
 }
@@ -4675,6 +4675,7 @@ header.fixedHeader.header02 {
 }
 .tmjAccordion .card .card-body {
   margin: 0;
+  font-size: 18px;
   padding: 20px 28px;
   color: var(--body-color);
 }
@@ -4702,6 +4703,96 @@ header.fixedHeader.header02 {
   color: #1A2B56;
 }
 .tmjAccordion .card.active {
+  border: 2px solid #F4F4F4;
+}
+
+.about-accordion.tmjAccordion {
+  position: relative;
+}
+.about-accordion.tmjAccordion .card {
+  padding: 0;
+  margin: 0 0 17px;
+  border-radius: 0;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: 2px solid var(--Borders, #F4F4F4);
+  background: transparent;
+}
+.about-accordion.tmjAccordion .card .card-header {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+.about-accordion.tmjAccordion .card .card-header .title {
+  position: relative;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  padding: 23px 55px 22px 20px;
+  height: 55px;
+  background-color: #1A2B56 !important;
+  display: flex;
+  align-items: center;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.about-accordion.tmjAccordion .card .card-header .title svg {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  height: 11px;
+  position: absolute;
+  right: 26px;
+  top: 0;
+  fill: #fff !important;
+  bottom: 0;
+  margin: auto;
+}
+.about-accordion.tmjAccordion .card.active .card-header .title, .about-accordion.tmjAccordion .card:hover .card-header .title {
+  color: #FFF;
+}
+.about-accordion.tmjAccordion .card.active .card-header .title svg, .about-accordion.tmjAccordion .card:hover .card-header .title svg {
+  fill: #FFF;
+}
+.about-accordion.tmjAccordion .card.active .card-header .title svg {
+  transform: rotate(180deg);
+  top: -5px;
+}
+.about-accordion.tmjAccordion .card .card-body {
+  margin: 0;
+  padding: 20px 28px;
+  color: var(--body-color);
+}
+.about-accordion.tmjAccordion .card .card-body ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+.about-accordion.tmjAccordion .card .card-body .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-accordion.tmjAccordion .card .card-body .icon-box .icon {
+  width: 77px;
+  height: 77px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1019607843);
+}
+.about-accordion.tmjAccordion .card .card-body .icon-box a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1A2B56;
+}
+.about-accordion.tmjAccordion .card.active {
   border: 2px solid #F4F4F4;
 }
 
@@ -4826,7 +4917,7 @@ header.fixedHeader.header02 {
 }
 .testimonialSlider02 .testimonilaItem02 .qutation {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 .testimonialSlider02 .testimonilaItem02 .google-link {
   position: absolute;
@@ -6133,6 +6224,7 @@ header.fixedHeader.header04 {
 }
 .serviceDcon p {
   margin: 0 0 20px;
+  font-size: 18px;
 }
 .serviceDcon img {
   max-width: 100%;
@@ -9530,7 +9622,7 @@ header.fixedHeader.header04 {
   margin-top: 20px;
 }
 .meet .meet-data p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #536184;
 }
@@ -9558,7 +9650,6 @@ header.fixedHeader.header04 {
 }
 .meet .admitted-box .boxes .admit-box {
   background-color: #FFFFFF;
-  width: 289px;
   height: 289px;
   display: flex;
   align-items: center;

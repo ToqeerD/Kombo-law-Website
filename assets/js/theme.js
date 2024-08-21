@@ -27,9 +27,8 @@
     13. Progress Bar Animation
     14. Count Down
     15. Mobile Menu
-    16. Contact Form Submission
+  16. Contact Form Submission
 */
-
 (function ($) {
     'use strict';
     

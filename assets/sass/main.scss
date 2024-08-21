@@ -1691,7 +1691,7 @@ header.fixedHeader {
     p {
         color: #fff;
         margin-bottom: 37px;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
     }
 
@@ -1788,7 +1788,7 @@ header.fixedHeader {
                 color: inherit;
                 padding-left: 16px;
                 position: relative;
-                font-size: 16px;
+                font-size: 18px;
                 font-weight: 400;
                 display: block;
 
@@ -3531,7 +3531,7 @@ header.fixedHeader.header02 {
                     position: absolute;
                     right: 26px;
                     top: 0;
-                    fill: #fff;
+                    fill: #1A2B56;
                     bottom: 0;
                     margin: auto;
                 }
@@ -3544,6 +3544,106 @@ header.fixedHeader.header02 {
 
             svg {
                 fill: #1A2B56;
+            }
+        }
+
+        &.active .card-header .title svg {
+            transform: rotate(180deg);
+            top: -5px;
+        }
+
+        .card-body {
+            margin: 0;
+            font-size: 18px;
+            padding: 20px 28px;
+            color: var(--body-color);
+            // background-color: #F4F4F4;
+
+            ul {
+                list-style-type: disc;
+                padding-left: 30px;
+            }
+
+            .icon-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .icon {
+                    width: 77px;
+                    height: 77px;
+                    background-color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0px 4px 25px 0px #0000001A;
+
+                }
+
+                a {
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #1A2B56;
+                }
+            }
+        }
+
+        &.active {
+            border: 2px solid  #F4F4F4;
+        }
+    }
+}
+.about-accordion.tmjAccordion {
+    position: relative;
+
+    .card {
+        padding: 0;
+        margin: 0 0 17px;
+        border-radius: 0;
+        @include transition;
+        border: 2px solid var(--Borders, #F4F4F4);
+        background: transparent;
+
+        .card-header {
+            margin: 0;
+            padding: 0;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+
+            .title {
+                position: relative;
+                font-size: 22px;
+                line-height: 26px;
+                font-weight: 700;
+                color: #fff;
+                margin: 0;
+                padding: 23px 55px 22px 20px;
+                height: 55px;
+                background-color: #1A2B56 !important;
+                display: flex;
+                align-items: center;
+                @include transition;
+
+                svg {
+                    @include transition;
+                    height: 11px;
+                    position: absolute;
+                    right: 26px;
+                    top: 0;
+                    fill: #fff !important;
+                    bottom: 0;
+                    margin: auto;
+                }
+            }
+        }
+
+        &.active .card-header .title,
+        &:hover .card-header .title {
+            color: #FFF;
+
+            svg {
+                fill: #FFF;
             }
         }
 
@@ -3592,7 +3692,6 @@ header.fixedHeader.header02 {
         }
     }
 }
-
 .testimonilaItem02 {
     position: relative;
     background: #FFFFFF;
@@ -3734,7 +3833,7 @@ header.fixedHeader.header02 {
 
         .qutation {
             margin: 0;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .google-link {
@@ -5192,6 +5291,7 @@ header.fixedHeader.header04 {
 
     p {
         margin: 0 0 20px;
+        font-size: 18px;
     }
 
     img {
@@ -6990,7 +7090,7 @@ header.fixedHeader.header04 {
     .meet-data{
         margin-top: 20px;
         p{
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 400;
             color: #536184;
         }
@@ -7023,7 +7123,6 @@ header.fixedHeader.header04 {
         .boxes{
             .admit-box{
                 background-color: #FFFFFF;
-                width: 289px;
                 height: 289px;
                 display: flex;
                 align-items: center;
