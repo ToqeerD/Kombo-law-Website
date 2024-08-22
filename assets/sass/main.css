@@ -5878,8 +5878,8 @@ header.fixedHeader.header04 {
   position: relative;
 }
 .serviceDcon h3 {
-  font-size: 35px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 .serviceDcon p {
@@ -5906,6 +5906,14 @@ header.fixedHeader.header04 {
   font-size: 30px;
   line-height: 36px;
   margin: 43px 0 14px;
+}
+.serviceDcon .listing-2 ul {
+  list-style-type: decimal;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+.serviceDcon .listing-2 ul li {
+  font-size: 18px;
 }
 
 .services-boxes .imi-box {
