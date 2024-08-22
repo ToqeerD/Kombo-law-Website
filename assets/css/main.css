@@ -9757,4 +9757,12 @@ header.fixedHeader.header04 {
   font-weight: 600;
 }
 
+.listing ul {
+  list-style: disc !important;
+  padding-left: 25px;
+}
+.listing ul li {
+  margin: 5px 0;
+}
+
 /*# sourceMappingURL=main.css.map */

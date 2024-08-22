@@ -7236,3 +7236,12 @@ header.fixedHeader.header04 {
         }
     }
 }
+.listing{
+    ul{
+        list-style: disc !important;
+        padding-left: 25px;
+        li{
+            margin: 5px 0;
+        }
+    }
+}
